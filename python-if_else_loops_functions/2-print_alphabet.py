@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 
-[print(chr(c), end='') for c in range(97, 123)]
+_ = [print(chr(i), end='') for i in range(97, 123)]
