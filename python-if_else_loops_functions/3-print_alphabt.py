@@ -2,6 +2,6 @@
 
 for char in range(97, 123):
     if chr(char) != 'e' and chr(char) != 'q':
-        print(chr(char), end='')
+        print("{:c}".format(char), end='')
 
 # Ensure the output doesn't include a newline
