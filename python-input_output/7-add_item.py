@@ -11,5 +11,9 @@ if __name__ == "__main__":
     except FileNotFoundError:
         items = []
 
+    # Extend the list with command-line arguments
     items.extend(sys.argv[1:])
+
+    # Save the updated list to the file
     save_to_json_file(items, "add_item.json")
+
