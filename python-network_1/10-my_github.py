@@ -1,4 +1,4 @@
-/usr/bin/python3
+#!/usr/bin/python3
 """ Python script that uses the GitHub API to display your id"""
 import requests
 import requests.auth
