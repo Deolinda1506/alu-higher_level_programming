@@ -1,13 +1,13 @@
 #!/usr/bin/python3
-"""__summary__
-- Write a Python script that fetches https://alu-intranet.hbtn.io/status
-- using the urllib package.
+"""
+Write a Python script that fetches https://alu-intranet.hbtn.io/status
+using the urllib package.
 """
 import urllib.request
 
-
 if __name__ == '__main__':
-    with urllib.request.urlopen('https://intranet.hbtn.io/status') as response:
+    url = 'https://alu-intranet.hbtn.io/status'
+    with urllib.request.urlopen(url) as response:
         content = response.read()
         print("Body response:")
         print("\t- type: {}".format(type(content)))
