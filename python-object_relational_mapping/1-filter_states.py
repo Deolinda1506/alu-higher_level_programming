@@ -1,4 +1,4 @@
-i#!/usr/bin/python3
+#!/usr/bin/python3
 """ Program lists all states with a name
 starting with N from the database"""
 
